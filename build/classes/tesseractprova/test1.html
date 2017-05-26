@@ -1,0 +1,12 @@
+<applet id="app"
+        archive="examples.jar"
+        code="TesseractProva">
+</applet>
+<script language="javascript">
+    app.noArgMethod();
+    app.someMethod("Hello");
+    app.someMethod(5);
+    var five = app.methodReturningInt();
+    var hello = app.methodReturningString();
+    app.methodReturningObject().anotherMethod();
+</script>
